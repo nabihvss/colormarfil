@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(245, 168, 180);
+    background-image: url('/img/backgroun2.png');
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url('/img/backgroun2.png');
+        background-size: contain; /* Puedes cambiar a 'contain' si lo prefieres */
+    }
+}
+body.iniciador {
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    transition: all 200ms ease-in-out;
+}
+
+main {
+text-align: center;
+}
+.container{
+    position: relative;
+    height: 260px; /* Asegúrate de definir una altura adecuada */
+}
+#gifi {
+    position: absolute; /* Cambia la posición de la imagen */
+    bottom: 0; /* Coloca la imagen en la parte inferior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centro de la imagen */
+    max-width: 100%;
+    height: auto;
+}
