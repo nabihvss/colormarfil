@@ -1,7 +1,6 @@
 body {
     background-image: url('img/backgroun2.png');
-    background-color: rgb(245, 168, 180);
-
+    background-size: cover;
 }
 body.iniciador {
     display: flex;
